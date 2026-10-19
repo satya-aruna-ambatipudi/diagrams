@@ -1,0 +1,44 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.5.3">
+  <diagram name="Page-1" id="_M-PaKICdwJtBhTt5Cqi">
+    <mxGraphModel dx="1042" dy="561" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lTKrB2dBs2zJHfcSfh1a-3" edge="1" parent="1" source="lTKrB2dBs2zJHfcSfh1a-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="lTKrB2dBs2zJHfcSfh1a-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="100" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lTKrB2dBs2zJHfcSfh1a-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" value="&lt;b&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;roboshop-catalogue-ec2&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="50" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="lTKrB2dBs2zJHfcSfh1a-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" value="&lt;b&gt;EC2 Module&lt;/b&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="240" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="lTKrB2dBs2zJHfcSfh1a-5" edge="1" parent="1" source="lTKrB2dBs2zJHfcSfh1a-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="lTKrB2dBs2zJHfcSfh1a-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lTKrB2dBs2zJHfcSfh1a-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" value="&lt;b&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;roboshop-cart-ec2&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="240" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="lTKrB2dBs2zJHfcSfh1a-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;&lt;font face=&quot;Comic Sans MS&quot; style=&quot;color: rgb(38, 65, 255);&quot;&gt;implement best standards here&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="120" x="360" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="lTKrB2dBs2zJHfcSfh1a-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;pass inputs&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="80" x="110" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="lTKrB2dBs2zJHfcSfh1a-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;&lt;font face=&quot;Comic Sans MS&quot; style=&quot;color: rgb(0, 0, 255);&quot;&gt;pass inputs&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="80" x="310" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="lTKrB2dBs2zJHfcSfh1a-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;Module developers&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="130" x="235" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="lTKrB2dBs2zJHfcSfh1a-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;Module users&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="120" x="50" y="340" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

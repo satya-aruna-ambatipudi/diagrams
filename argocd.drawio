@@ -1,0 +1,83 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="5znM2dNWou5Y7Gr95rri">
+    <mxGraphModel dx="1030" dy="561" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NVj7v_bf3U8XHg8z9Cx7-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="280" width="480" x="320" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="NVj7v_bf3U8XHg8z9Cx7-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="230" width="280" x="340" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="NVj7v_bf3U8XHg8z9Cx7-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;argocd - management namespace&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="190" x="400" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="NVj7v_bf3U8XHg8z9Cx7-4" parent="1" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.github_code;pointerEvents=1;" value="" vertex="1">
+          <mxGeometry height="110" width="90" x="80" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="NVj7v_bf3U8XHg8z9Cx7-5" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="&lt;b&gt;namespaces&lt;/b&gt;" vertex="1">
+          <mxGeometry height="90" width="90" x="360" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="NVj7v_bf3U8XHg8z9Cx7-6" edge="1" parent="1" source="NVj7v_bf3U8XHg8z9Cx7-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.991;entryY=0.624;entryDx=0;entryDy=0;entryPerimeter=0;" target="NVj7v_bf3U8XHg8z9Cx7-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="169" y="215" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NVj7v_bf3U8XHg8z9Cx7-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;jenkins/github-actions&lt;/b&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="140" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="NVj7v_bf3U8XHg8z9Cx7-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;EKS Cluster&lt;/b&gt;" vertex="1">
+          <mxGeometry height="140" width="190" x="390" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="NVj7v_bf3U8XHg8z9Cx7-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;b&gt;kubectl install&lt;/b&gt;&lt;div&gt;&lt;b&gt;aws credentials configure&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="180" x="140" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="NVj7v_bf3U8XHg8z9Cx7-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;b&gt;clone&lt;/b&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="40" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="NVj7v_bf3U8XHg8z9Cx7-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;b&gt;unit-tests&lt;/b&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="230" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="NVj7v_bf3U8XHg8z9Cx7-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;b&gt;scans&lt;/b&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="400" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="NVj7v_bf3U8XHg8z9Cx7-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;b&gt;build-image&lt;/b&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="570" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="NVj7v_bf3U8XHg8z9Cx7-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;b&gt;psuh image&lt;/b&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="740" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="NVj7v_bf3U8XHg8z9Cx7-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;pull image from ECR&lt;/b&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="40" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="NVj7v_bf3U8XHg8z9Cx7-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;promoting with&lt;/b&gt;&lt;div&gt;&lt;b&gt;github commit&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="230" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="NVj7v_bf3U8XHg8z9Cx7-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;edit values-dev.yaml&lt;/b&gt;&lt;div&gt;&lt;b&gt;with sed editor&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="400" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="NVj7v_bf3U8XHg8z9Cx7-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;helm upgrade command&lt;/b&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="570" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="NVj7v_bf3U8XHg8z9Cx7-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;it will update&lt;/b&gt;&lt;div&gt;&lt;b&gt;values-dev.yaml&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="230" y="1030" as="geometry" />
+        </mxCell>
+        <mxCell id="NVj7v_bf3U8XHg8z9Cx7-20" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="&lt;b&gt;catalogue&lt;/b&gt;" vertex="1">
+          <mxGeometry height="90" width="90" x="360" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="NVj7v_bf3U8XHg8z9Cx7-21" parent="1" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.github_code;pointerEvents=1;" value="" vertex="1">
+          <mxGeometry height="110" width="90" x="80" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="NVj7v_bf3U8XHg8z9Cx7-22" edge="1" parent="1" source="NVj7v_bf3U8XHg8z9Cx7-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.982;entryY=0.413;entryDx=0;entryDy=0;entryPerimeter=0;" target="NVj7v_bf3U8XHg8z9Cx7-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NVj7v_bf3U8XHg8z9Cx7-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;values-dev.yaml&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="120" x="180" y="320" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
